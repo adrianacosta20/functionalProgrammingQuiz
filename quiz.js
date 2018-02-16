@@ -27,7 +27,7 @@ class Payroll {
 
     getFullTime(workers) {
         return workers.filter(n => {
-            return (n.hoursWorked > 59) ? 1 : 0
+            return (n.hoursWorked > 60) ? 1 : 0
         })
     }
     getTotalLabor(workers) {

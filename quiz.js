@@ -32,7 +32,7 @@ class Payroll {
     }
     getTotalLabor(workers) {
         return workers.reduce((acc, curr) => {
-            return acc + (curr * acc)
+            return 
         })
     }
 }
